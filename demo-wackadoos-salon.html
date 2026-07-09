@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wack A Doos Style Salon | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--plum:#5b2a4e;--pink:#e26d8f;--butter:#f9edda;--teal:#2f7a70;--ink:#33202e;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Karla',sans-serif;color:var(--ink);background:var(--butter);line-height:1.6;}
+h1,h2{font-family:'Fraunces',serif;}
+.demo-tag{background:var(--teal);color:var(--butter);text-align:center;font-size:.75rem;padding:.4rem;letter-spacing:1px;text-transform:uppercase;}
+header{position:sticky;top:0;z-index:10;background:var(--plum);color:var(--butter);display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem;}
+header .brand{font-family:'Fraunces',serif;font-size:1.05rem;}
+header a.call{background:var(--pink);color:#fff;text-decoration:none;font-weight:600;padding:.45rem .9rem;border-radius:999px;font-size:.85rem;}
+.hero{background:var(--plum);color:var(--butter);text-align:center;padding:4.5rem 1.25rem;position:relative;overflow:hidden;}
+.hero::before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:var(--pink);opacity:.25;top:-70px;left:-70px;}
+.hero::after{content:"";position:absolute;width:160px;height:160px;border-radius:50%;background:var(--teal);opacity:.3;bottom:-50px;right:-40px;}
+.hero .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:.75rem;color:var(--pink);margin-bottom:.75rem;position:relative;z-index:1;}
+.hero h1{font-size:2.3rem;line-height:1.12;margin-bottom:1rem;position:relative;z-index:1;}
+.hero p{max-width:34ch;margin:0 auto 1.75rem;font-size:1.05rem;position:relative;z-index:1;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;}
+.btn{text-decoration:none;padding:.8rem 1.5rem;border-radius:999px;font-weight:600;font-size:.95rem;}
+.btn.pink{background:var(--pink);color:#fff;}
+.btn.ghost{border:1.5px solid var(--butter);color:var(--butter);}
+section{padding:3rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.6rem;color:var(--plum);margin-bottom:1rem;}
+.services{display:grid;gap:.75rem;}
+.services div{background:#fff;border-radius:12px;padding:1rem 1.25rem;box-shadow:0 2px 6px rgba(91,42,78,.08);}
+.services div strong{color:var(--plum);}
+.services div span{display:block;font-size:.9rem;color:#7d6275;margin-top:.15rem;}
+.legacy{text-align:center;background:#fff;border-radius:12px;padding:1.75rem 1.25rem;box-shadow:0 2px 6px rgba(91,42,78,.08);}
+.legacy strong{font-family:'Fraunces',serif;font-size:2.4rem;color:var(--pink);display:block;}
+.visit{background:var(--plum);color:var(--butter);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--pink);}
+footer{text-align:center;padding:1.5rem 1rem;font-size:.8rem;color:#96798d;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Wack A Doos</div>
+  <a class="call" href="tel:12088824399">Call</a>
+</header>
+<div class="hero">
+  <div class="eyebrow">Style Salon · Moscow, Idaho</div>
+  <h1>Hair with personality, since way back.</h1>
+  <p>Cuts, color, and styles for the whole family, right on South Main.</p>
+  <div class="btnrow">
+    <a class="btn pink" href="tel:12088824399">Book by phone</a>
+    <a class="btn ghost" href="https://maps.google.com/?q=531+S+Main+St+Moscow+ID+83843">Directions</a>
+  </div>
+</div>
+<section>
+  <div class="legacy"><strong>56 years</strong>of keeping Moscow looking good. Few salons anywhere can say that.</div>
+</section>
+<section>
+  <h2>What we do</h2>
+  <div class="services">
+    <div><strong>Cuts &amp; styling</strong><span>Women, men, and kids</span></div>
+    <div><strong>Color &amp; highlights</strong><span>Full color, foils, touch-ups</span></div>
+    <div><strong>Perms &amp; texture</strong><span>Classic and modern</span></div>
+    <div><strong>Special occasion</strong><span>Updos for weddings and events</span></div>
+  </div>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Come see us</h2>
+    <p>531 S Main St, Suite A, Moscow, ID 83843<br>Call for appointments and today's hours.</p>
+    <div class="btnrow" style="justify-content:flex-start;margin-top:1.25rem">
+      <a class="btn pink" href="tel:12088824399">(208) 882-4399</a>
+      <a class="btn ghost" href="https://maps.google.com/?q=531+S+Main+St+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>

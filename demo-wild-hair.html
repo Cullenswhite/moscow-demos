@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Wild Hair | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#25382e;--sage:#b6c4ae;--copper:#b06e4a;--paper:#f4f1ea;--ink:#26302a;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Work Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;}
+h1,h2{font-family:'Libre Baskerville',serif;}
+.demo-tag{background:var(--copper);color:var(--paper);text-align:center;font-size:.75rem;padding:.4rem;letter-spacing:1px;text-transform:uppercase;}
+header{position:sticky;top:0;z-index:10;background:var(--forest);color:var(--paper);display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem;}
+header .brand{font-family:'Libre Baskerville',serif;font-size:1.05rem;}
+header a.call{background:var(--copper);color:var(--paper);text-decoration:none;font-weight:600;padding:.45rem .9rem;border-radius:4px;font-size:.85rem;}
+.hero{background:var(--forest);color:var(--paper);text-align:center;padding:4.5rem 1.25rem;}
+.hero .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:.75rem;color:var(--sage);margin-bottom:.75rem;}
+.hero h1{font-size:2.2rem;line-height:1.2;margin-bottom:1rem;}
+.hero p{max-width:35ch;margin:0 auto 1.75rem;color:var(--sage);font-size:1.05rem;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.8rem 1.5rem;border-radius:4px;font-weight:600;font-size:.95rem;}
+.btn.copper{background:var(--copper);color:var(--paper);}
+.btn.ghost{border:1.5px solid var(--sage);color:var(--sage);}
+section{padding:3rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.5rem;color:var(--forest);margin-bottom:1rem;}
+.services li{list-style:none;display:flex;justify-content:space-between;padding:.85rem 0;border-bottom:1px solid #ddd8cb;font-weight:600;}
+.services li span{font-weight:400;color:#6e7a70;}
+.badge{display:flex;align-items:center;gap:1rem;background:#fff;border-radius:10px;padding:1.25rem;box-shadow:0 2px 6px rgba(37,56,46,.08);margin-top:1.5rem;}
+.badge strong{font-family:'Libre Baskerville',serif;font-size:2rem;color:var(--copper);white-space:nowrap;}
+.badge span{font-size:.95rem;}
+.visit{background:var(--forest);color:var(--paper);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--sage);}
+.visit p{color:#cfd8c9;}
+footer{text-align:center;padding:1.5rem 1rem;font-size:.8rem;color:#8c9488;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">The Wild Hair</div>
+  <a class="call" href="tel:12088826563">Call</a>
+</header>
+<div class="hero">
+  <div class="eyebrow">Salon · Moscow, Idaho</div>
+  <h1>Three decades of good hair days.</h1>
+  <p>A neighborhood salon where you get a stylist who knows your name and your hair.</p>
+  <div class="btnrow">
+    <a class="btn copper" href="tel:12088826563">(208) 882-6563</a>
+    <a class="btn ghost" href="https://maps.google.com/?q=307+Dolly+Dr+Moscow+ID+83843">Directions</a>
+  </div>
+</div>
+<section>
+  <h2>Services</h2>
+  <ul class="services">
+    <li>Women's cuts <span>Wash, cut &amp; style</span></li>
+    <li>Men's cuts <span>Quick &amp; precise</span></li>
+    <li>Color services <span>Full color &amp; highlights</span></li>
+    <li>Perms <span>Classic &amp; body wave</span></li>
+    <li>Styling <span>Events &amp; everyday</span></li>
+  </ul>
+  <div class="badge"><strong>30 yrs</strong><span>Serving Moscow from the same friendly chair. Longtime clients, new faces always welcome.</span></div>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Book a chair</h2>
+    <p>307 Dolly Dr, Moscow, ID 83843<br>By appointment. Call for openings.</p>
+    <div class="btnrow" style="justify-content:flex-start;margin-top:1.25rem">
+      <a class="btn copper" href="tel:12088826563">Call the salon</a>
+      <a class="btn ghost" href="https://maps.google.com/?q=307+Dolly+Dr+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>

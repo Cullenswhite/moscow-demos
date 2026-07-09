@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main Street Antique Mall | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f7f2e9;--walnut:#4a352a;--green:#2e4b3f;--gold:#b8905f;--ink:#2b2420;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Source Sans 3',sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;}
+h1,h2,h3{font-family:'Playfair Display',serif;}
+header{position:sticky;top:0;z-index:10;background:var(--walnut);color:var(--cream);display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem;}
+header .brand{font-family:'Playfair Display',serif;font-size:1.05rem;letter-spacing:.5px;}
+header a.call{background:var(--gold);color:var(--walnut);text-decoration:none;font-weight:600;padding:.45rem .9rem;border-radius:999px;font-size:.85rem;}
+.hero{background:linear-gradient(rgba(46,75,63,.82),rgba(46,75,63,.82)),url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="80" height="80"%3E%3Crect width="80" height="80" fill="%232e4b3f"/%3E%3Cpath d="M0 40h80M40 0v80" stroke="%23415f52" stroke-width="1"/%3E%3C/svg%3E');color:var(--cream);text-align:center;padding:4.5rem 1.25rem;}
+.hero .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:.75rem;color:var(--gold);margin-bottom:.75rem;}
+.hero h1{font-size:2.2rem;line-height:1.15;margin-bottom:1rem;}
+.hero p{max-width:34ch;margin:0 auto 1.75rem;font-size:1.05rem;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.8rem 1.5rem;border-radius:4px;font-weight:600;font-size:.95rem;}
+.btn.gold{background:var(--gold);color:var(--walnut);}
+.btn.ghost{border:1.5px solid var(--cream);color:var(--cream);}
+section{padding:3rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.6rem;color:var(--green);margin-bottom:1rem;}
+.stats{display:flex;gap:1rem;justify-content:space-between;text-align:center;background:#fff;border:1px solid #e5dcc9;border-radius:8px;padding:1.25rem 1rem;margin-top:1.5rem;}
+.stats div strong{display:block;font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--walnut);}
+.stats div span{font-size:.8rem;text-transform:uppercase;letter-spacing:1px;color:#7a6a58;}
+.cats{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:1.25rem;}
+.cats div{background:#fff;border:1px solid #e5dcc9;border-radius:8px;padding:1rem;font-weight:600;color:var(--walnut);font-size:.95rem;}
+.cats div span{display:block;font-weight:400;font-size:.85rem;color:#7a6a58;margin-top:.2rem;}
+.visit{background:var(--walnut);color:var(--cream);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--gold);}
+.visit table{width:100%;margin:1rem 0 1.5rem;border-collapse:collapse;}
+.visit td{padding:.4rem 0;border-bottom:1px solid rgba(247,242,233,.15);font-size:.95rem;}
+.visit td:last-child{text-align:right;}
+footer{text-align:center;padding:1.5rem 1rem;font-size:.8rem;color:#8b7a66;}
+.demo-tag{background:var(--green);color:var(--cream);text-align:center;font-size:.75rem;padding:.4rem;letter-spacing:1px;text-transform:uppercase;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Main Street Antique Mall</div>
+  <a class="call" href="tel:12088822614">Call</a>
+</header>
+<div class="hero">
+  <div class="eyebrow">Downtown Moscow, Idaho</div>
+  <h1>Forty vendors. Five thousand square feet. One address.</h1>
+  <p>Antique and vintage furniture, kitchenware, collectibles, books, jewelry, and home decor in the heart of Main Street.</p>
+  <div class="btnrow">
+    <a class="btn gold" href="https://maps.google.com/?q=215+N+Main+St+Moscow+ID+83843">Get Directions</a>
+    <a class="btn ghost" href="tel:12088822614">(208) 882-2614</a>
+  </div>
+</div>
+<section>
+  <h2>A different find every visit</h2>
+  <p>Every booth is curated by a different local vendor, so the shelves change constantly. Whether you collect vinyl, restore mid-century furniture, or just love the hunt, there is always something new on the floor.</p>
+  <div class="stats">
+    <div><strong>40+</strong><span>Vendors</span></div>
+    <div><strong>5,000</strong><span>Sq Ft</span></div>
+    <div><strong>7</strong><span>Days a week</span></div>
+  </div>
+</section>
+<section>
+  <h2>What you'll find</h2>
+  <div class="cats">
+    <div>Furniture<span>Vintage &amp; mid-century</span></div>
+    <div>Kitchenware<span>Cast iron to china</span></div>
+    <div>Collectibles<span>Coins, toys, signs</span></div>
+    <div>Books &amp; Media<span>Rare finds &amp; vinyl</span></div>
+    <div>Jewelry<span>Estate &amp; costume</span></div>
+    <div>Home Decor<span>Art, lamps, textiles</span></div>
+  </div>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Visit us</h2>
+    <p>215 N Main St, Moscow, ID 83843</p>
+    <table>
+      <tr><td>Monday to Saturday</td><td>10 am to 6 pm</td></tr>
+      <tr><td>Sunday</td><td>12 pm to 5 pm</td></tr>
+    </table>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn gold" href="tel:12088822614">Call the shop</a>
+      <a class="btn ghost" href="https://www.facebook.com/moscowantiques/">Facebook</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>

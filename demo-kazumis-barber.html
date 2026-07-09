@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kazumi's Barber Shop | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#182a3d;--white:#f8f8f5;--red:#b3382e;--steel:#8fa3b5;--ink:#1c2530;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--white);line-height:1.6;}
+h1,h2{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:1px;}
+.demo-tag{background:var(--red);color:var(--white);text-align:center;font-size:.75rem;padding:.4rem;letter-spacing:1px;text-transform:uppercase;}
+header{position:sticky;top:0;z-index:10;background:var(--navy);color:var(--white);display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem;}
+header .brand{font-family:'Oswald',sans-serif;font-size:1rem;letter-spacing:1.5px;text-transform:uppercase;}
+header a.call{background:var(--red);color:var(--white);text-decoration:none;font-weight:600;padding:.45rem .9rem;border-radius:3px;font-size:.85rem;}
+.hero{background:repeating-linear-gradient(135deg,var(--navy),var(--navy) 26px,#1e3349 26px,#1e3349 52px);color:var(--white);text-align:center;padding:4.5rem 1.25rem;}
+.hero .pole{width:10px;height:56px;margin:0 auto 1.25rem;border-radius:5px;background:repeating-linear-gradient(45deg,var(--red) 0 8px,var(--white) 8px 16px,#3a6ea5 16px 24px);}
+.hero h1{font-size:2.4rem;line-height:1.1;margin-bottom:.75rem;}
+.hero p{max-width:36ch;margin:0 auto 1.75rem;color:var(--steel);font-size:1.05rem;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.8rem 1.5rem;border-radius:3px;font-weight:600;font-size:.95rem;}
+.btn.red{background:var(--red);color:var(--white);}
+.btn.line{border:1.5px solid var(--white);color:var(--white);}
+section{padding:3rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.5rem;color:var(--navy);margin-bottom:1rem;}
+.services li{list-style:none;display:flex;justify-content:space-between;padding:.85rem 0;border-bottom:1px dashed #cfd8df;font-weight:600;}
+.services li span{font-weight:400;color:#5c6b7a;}
+.since{background:#fff;border-left:4px solid var(--red);padding:1rem 1.25rem;margin-top:1.5rem;font-size:.95rem;box-shadow:0 1px 4px rgba(24,42,61,.08);}
+.visit{background:var(--navy);color:var(--white);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--white);}
+.visit p.addr{color:var(--steel);margin-bottom:1.25rem;}
+footer{text-align:center;padding:1.5rem 1rem;font-size:.8rem;color:#7a8794;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Kazumi's Barber Shop</div>
+  <a class="call" href="tel:12088833138">Call</a>
+</header>
+<div class="hero">
+  <div class="pole"></div>
+  <h1>A proper cut.<br>No fuss.</h1>
+  <p>Moscow's neighborhood barber shop for three decades. Walk in, sit down, walk out sharp.</p>
+  <div class="btnrow">
+    <a class="btn red" href="tel:12088833138">(208) 883-3138</a>
+    <a class="btn line" href="https://maps.google.com/?q=306+N+Jackson+St+Moscow+ID+83843">Directions</a>
+  </div>
+</div>
+<section>
+  <h2>Services</h2>
+  <ul class="services">
+    <li>Men's haircut <span>Classic &amp; modern</span></li>
+    <li>Buzz &amp; fade cuts <span>Clean lines</span></li>
+    <li>Beard trim <span>Shaped &amp; tidy</span></li>
+    <li>Kids' cuts <span>Patient &amp; quick</span></li>
+    <li>Senior cuts <span>Everyday value</span></li>
+  </ul>
+  <div class="since">Around 30 years cutting hair in Moscow. A local institution three blocks off Main, trusted by students, professors, and families alike.</div>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Find the shop</h2>
+    <p class="addr">306 N Jackson St, Moscow, ID 83843<br>Call ahead to confirm today's hours.</p>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn red" href="tel:12088833138">Call the shop</a>
+      <a class="btn line" href="https://maps.google.com/?q=306+N+Jackson+St+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>
