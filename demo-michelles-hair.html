@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michelle's Hair Studio | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ivory:#faf6f0;--teal:#14555a;--teal-dk:#0d3d41;--gold:#c9a35c;--ink:#2c2c28;--soft:#7c7a70;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Nunito Sans',sans-serif;color:var(--ink);background:var(--ivory);line-height:1.65;}
+h1,h2,h3{font-family:'DM Serif Display',serif;font-weight:400;}
+.demo-tag{background:var(--teal);color:var(--ivory);text-align:center;font-size:.72rem;padding:.45rem;letter-spacing:2px;text-transform:uppercase;}
+header{position:sticky;top:0;z-index:20;background:rgba(250,246,240,.94);backdrop-filter:blur(8px);display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.15rem;border-bottom:1px solid #eee5d6;}
+header .brand{font-family:'DM Serif Display',serif;font-size:1.1rem;}
+header a.call{background:var(--teal);color:var(--ivory);text-decoration:none;font-weight:700;padding:.5rem 1.05rem;border-radius:999px;font-size:.85rem;}
+.hero{padding:4.5rem 1.25rem;text-align:center;background:radial-gradient(circle at 70% 10%,#fff 0%,var(--ivory) 60%);}
+.hero .eyebrow{letter-spacing:3px;font-size:.75rem;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:1rem;}
+.hero h1{font-size:clamp(2.4rem,9vw,3.2rem);line-height:1.08;}
+.hero h1 em{color:var(--teal);}
+.hero p{margin:1.25rem auto 2rem;color:var(--soft);font-size:1.05rem;max-width:38ch;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.85rem 1.6rem;border-radius:999px;font-weight:700;font-size:.95rem;}
+.btn.teal{background:var(--teal);color:var(--ivory);}
+.btn.line{border:1.5px solid var(--teal);color:var(--teal);}
+section{padding:3.25rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.9rem;margin-bottom:1.25rem;color:var(--teal-dk);}
+.price{background:#fff;border-radius:16px;box-shadow:0 3px 14px rgba(20,85,90,.07);overflow:hidden;}
+.price .group{padding:1.1rem 1.3rem;border-bottom:1px solid #f0e9dc;}
+.price .group:last-child{border-bottom:none;}
+.price h3{font-size:1.05rem;color:var(--gold);margin-bottom:.5rem;}
+.price li{list-style:none;display:flex;justify-content:space-between;padding:.32rem 0;font-size:.96rem;}
+.price li span{font-weight:700;color:var(--teal-dk);}
+.note{font-size:.82rem;color:var(--soft);text-align:center;margin-top:.7rem;}
+.hours{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;}
+.hours div{background:#fff;border-radius:14px;padding:1.1rem;box-shadow:0 3px 14px rgba(20,85,90,.07);text-align:center;}
+.hours strong{font-family:'DM Serif Display',serif;font-size:1.1rem;color:var(--teal-dk);display:block;margin-bottom:.2rem;}
+.hours span{font-size:.92rem;color:var(--soft);}
+.about{background:#fff;border-radius:16px;padding:1.6rem;box-shadow:0 3px 14px rgba(20,85,90,.07);text-align:center;font-size:1rem;}
+.about b{color:var(--teal-dk);}
+.visit{background:var(--teal-dk);color:var(--ivory);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--ivory);}
+.visit p{color:#c3d4d2;margin-bottom:1.3rem;}
+.visit .addr{color:var(--ivory);font-weight:700;font-size:1.05rem;}
+footer{text-align:center;padding:1.6rem 1rem;font-size:.78rem;color:#a49e90;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Michelle's Hair Studio</div>
+  <a class="call" href="tel:12083017818">Call</a>
+</header>
+<div class="hero">
+  <div class="eyebrow">Downtown Moscow · 214 N Main St</div>
+  <h1>Beautiful hair,<br><em>honest prices.</em></h1>
+  <p>A friendly Main Street studio for cuts, color, perms, and special-occasion styling — six days a week.</p>
+  <div class="btnrow">
+    <a class="btn teal" href="tel:12083017818">Call for appointment</a>
+    <a class="btn line" href="#prices">See prices</a>
+  </div>
+</div>
+<section id="prices">
+  <h2>Services &amp; pricing</h2>
+  <div class="price">
+    <div class="group">
+      <h3>Haircuts</h3>
+      <ul>
+        <li>Women's <span>$27–29</span></li>
+        <li>Men's <span>$18</span></li>
+        <li>Kids' <span>$14</span></li>
+      </ul>
+    </div>
+    <div class="group">
+      <h3>Color (includes haircut)</h3>
+      <ul>
+        <li>Full color <span>$70+</span></li>
+        <li>Highlights <span>$90+</span></li>
+      </ul>
+    </div>
+    <div class="group">
+      <h3>More</h3>
+      <ul>
+        <li>Perm <span>$70+</span></li>
+        <li>Formal hairstyle <span>$45</span></li>
+        <li>Facial waxing <span>$10</span></li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Straightforward pricing, no surprises at checkout.</p>
+</section>
+<section style="padding-top:0">
+  <h2>Open six days</h2>
+  <div class="hours">
+    <div><strong>Mon–Fri</strong><span>9:30 am – 8:00 pm</span></div>
+    <div><strong>Saturday</strong><span>9:00 am – 6:00 pm</span></div>
+  </div>
+  <p class="note">Evening appointments available on weekdays — rare in Moscow.</p>
+</section>
+<section style="padding-top:0">
+  <div class="about">Right on <b>Main Street</b>, easy to reach between errands, work, or class — with the kind of one-on-one attention only a small studio gives.</div>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Visit the studio</h2>
+    <p class="addr">214 N Main St, Suite F · Moscow, ID 83843</p>
+    <p>Call ahead to grab your time — evenings fill fastest.</p>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn" style="background:var(--gold);color:#fff" href="tel:12083017818">(208) 301-7818</a>
+      <a class="btn line" style="border-color:var(--ivory);color:var(--ivory)" href="https://maps.google.com/?q=214+N+Main+St+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>

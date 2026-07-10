@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Highlights Cut &amp; Color Salon | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1b1320;--card:#251a2c;--cream:#f3edf5;--muted:#b9a9c4;--g1:#ff5e8a;--g2:#ff9d5c;--g3:#ffd166;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;color:var(--cream);background:var(--bg);line-height:1.65;}
+h1,h2,h3{font-family:'Sora',sans-serif;}
+.grad{background:linear-gradient(90deg,var(--g1),var(--g2),var(--g3));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.demo-tag{background:linear-gradient(90deg,var(--g1),var(--g2));color:#fff;text-align:center;font-size:.72rem;padding:.45rem;letter-spacing:2px;text-transform:uppercase;}
+header{position:sticky;top:0;z-index:20;background:rgba(27,19,32,.92);backdrop-filter:blur(8px);display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.15rem;border-bottom:1px solid #332440;}
+header .brand{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;}
+header a.call{background:linear-gradient(90deg,var(--g1),var(--g2));color:#fff;text-decoration:none;font-weight:600;padding:.5rem 1.05rem;border-radius:999px;font-size:.85rem;}
+.hero{padding:4.5rem 1.25rem;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:"";position:absolute;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(255,94,138,.28),transparent 65%);top:-120px;right:-100px;}
+.hero::after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,209,102,.18),transparent 65%);bottom:-100px;left:-90px;}
+.hero>*{position:relative;z-index:1;}
+.hero .eyebrow{letter-spacing:3px;font-size:.75rem;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;}
+.hero h1{font-size:clamp(2.3rem,9vw,3.2rem);font-weight:800;line-height:1.08;}
+.hero p{margin:1.25rem auto 2rem;color:var(--muted);font-size:1.05rem;max-width:37ch;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.85rem 1.6rem;border-radius:999px;font-weight:600;font-size:.95rem;}
+.btn.grd{background:linear-gradient(90deg,var(--g1),var(--g2));color:#fff;}
+.btn.line{border:1.5px solid #4d3a5e;color:var(--cream);}
+section{padding:3.25rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.7rem;font-weight:800;margin-bottom:1.3rem;}
+.svc{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;}
+.svc div{background:var(--card);border:1px solid #332440;border-radius:14px;padding:1.05rem;}
+.svc strong{display:block;font-family:'Sora',sans-serif;font-size:.98rem;margin-bottom:.2rem;}
+.svc span{font-size:.85rem;color:var(--muted);}
+.band{border-radius:16px;padding:1.5rem;background:var(--card);border:1px solid #332440;text-align:center;}
+.band b{font-family:'Sora',sans-serif;font-size:1.5rem;display:block;margin-bottom:.3rem;}
+.band p{color:var(--muted);font-size:.95rem;}
+.hours li{list-style:none;display:flex;justify-content:space-between;padding:.55rem 0;border-bottom:1px solid #332440;font-size:.95rem;}
+.hours li:last-child{border-bottom:none;}
+.hours li span{color:var(--muted);}
+.visit{background:linear-gradient(160deg,#241631,#1b1320);max-width:none;border-top:1px solid #332440;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit p{color:var(--muted);margin-bottom:1.3rem;}
+.visit .addr{color:var(--cream);font-weight:600;font-size:1.05rem;}
+footer{text-align:center;padding:1.6rem 1rem;font-size:.78rem;color:#7d6b8a;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Highlights <span class="grad">Cut &amp; Color</span></div>
+  <a class="call" href="tel:12083017439">Call</a>
+</header>
+<div class="hero">
+  <div class="eyebrow">Eastside Marketplace · Moscow, Idaho</div>
+  <h1>Color is the whole <span class="grad">point.</span></h1>
+  <p>A salon that specializes in exactly what its name says — dimensional highlights, rich all-over color, and cuts that show them off.</p>
+  <div class="btnrow">
+    <a class="btn grd" href="tel:12083017439">(208) 301-7439</a>
+    <a class="btn line" href="https://maps.google.com/?q=1420+S+Blaine+St+Moscow+ID+83843">Directions</a>
+  </div>
+</div>
+<section>
+  <h2>What we do</h2>
+  <div class="svc">
+    <div><strong>Highlights</strong><span>Foils, balayage, dimension</span></div>
+    <div><strong>All-over color</strong><span>Rich, lasting shades</span></div>
+    <div><strong>Color correction</strong><span>Fixing what went wrong</span></div>
+    <div><strong>Cuts &amp; styling</strong><span>Shaped to your color</span></div>
+    <div><strong>Root touch-ups</strong><span>Quick and seamless</span></div>
+    <div><strong>Toning &amp; gloss</strong><span>Shine and tone refresh</span></div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="band"><b class="grad">Color specialists since 2014</b><p>A decade of doing one thing exceptionally well, right here in Moscow.</p></div>
+</section>
+<section style="padding-top:0">
+  <h2>Hours</h2>
+  <ul class="hours">
+    <li>Monday – Wednesday <span>11 am – 6 pm</span></li>
+    <li>Thursday <span>11 am – 5 pm</span></li>
+    <li>Friday <span>11 am – 6 pm</span></li>
+    <li>Saturday <span>11 am – 4 pm</span></li>
+    <li>Sunday <span>Closed</span></li>
+  </ul>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Find the salon</h2>
+    <p class="addr">1420 S Blaine St, Suite D8 · Moscow, ID 83843</p>
+    <p>In the Eastside Marketplace — easy parking right outside the door.</p>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn grd" href="tel:12083017439">Book by phone</a>
+      <a class="btn line" href="https://maps.google.com/?q=1420+S+Blaine+St+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>
