@@ -65,6 +65,13 @@ section h2{font-size:1.9rem;margin-bottom:1.3rem;}
 .review-card{background:var(--card);border:1px solid #332440;border-radius:14px;padding:1.15rem 1.25rem;margin-bottom:.8rem;}
 .review-card p.txt{font-size:.98rem;}
 .review-card p.who{font-size:.85rem;margin-top:.45rem;}
+.duo{display:grid;gap:1.5rem;}
+@media(min-width:640px){.duo{grid-template-columns:1fr 1fr;gap:1rem;}}
+.col h3{font-family:'Fraunces',serif;font-size:1.25rem;margin-bottom:.3rem;}
+.col .score{margin-bottom:.9rem;font-size:.95rem;color:var(--muted);}
+.col .score b{color:var(--g3);font-size:1.15rem;}
+.pop{transition:transform .22s ease, box-shadow .22s ease;}
+.pop:hover{transform:scale(1.05);box-shadow:0 8px 26px rgba(255,94,138,.22);}
 .visit{background:linear-gradient(160deg,#241631,#1b1320);max-width:none;border-top:1px solid #332440;}
 .visit .inner{max-width:660px;margin:0 auto;}
 .visit p{color:var(--muted);margin-bottom:1.3rem;font-size:1.02rem;}
@@ -91,14 +98,16 @@ footer{text-align:center;padding:1.6rem 1rem;font-size:.8rem;color:#7d6b8a;}
   <h2>The <span class="grad">work</span></h2>
   <p class="sub">Swipe through — every head of hair here left this chair.</p>
   <div class="rail">
-    <div class="shot p1">Sheri's photo #1<br>(coming right here)</div>
-    <div class="shot p2">Sheri's photo #2</div>
-    <div class="shot p3">Sheri's photo #3</div>
-    <div class="shot p4">Sheri's photo #4</div>
-    <div class="shot p5">Sheri's photo #5</div>
-    <div class="shot p1">Sheri's photo #6</div>
-    <div class="shot p3">Sheri's photo #7</div>
-    <div class="shot p2">Sheri's photo #8</div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/KRRhUe7RmhvHTE1xCXBAEg/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/DsJ4ftFldqH9lQHnH2pWNw/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/ihgXjKPlw3bu0dZiZzsM0g/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/0_jXsnQRtZ6zb3RPc1dXJw/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/b_Lv-ZqJxwZ2BXgKmQWdtA/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/Xk-efygSIw7CereNhAasBw/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/WcemyI8gqOLsTj8FabfTjQ/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/zpS4q2unKK-XkUgmEdP21Q/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/ocYKO6f-ca1-kT3jJjdKgQ/o.jpg')"></div>
+    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/L-BTNoniinSegO2LUxRSqQ/o.jpg')"></div>
   </div>
 </div>
 <div class="rating"><b>4.5</b> <span>★★★★½</span> <small>51 Google reviews</small></div>
@@ -118,20 +127,32 @@ footer{text-align:center;padding:1.6rem 1rem;font-size:.8rem;color:#7d6b8a;}
 <section style="padding-top:0">
   <div class="oneliner"><p><b>Gentler by design.</b> Sheri works with ammonia-free color formulas — beautiful results that are kinder to your hair and scalp.</p></div>
 </section>
+<section style="padding-top:0" id="reviews">
+  <h2>What clients <span class="grad">say</span></h2>
+  <div class="duo">
+    <div class="col">
+      <h3>On Google</h3>
+      <p class="score"><b>4.5</b> ★★★★½ · 51 reviews</p>
+      <div class="review-card pop"><p class="txt">Lillyana has been seeing Sheri since moving to the area — welcoming, skilled with her shears, and recommended without hesitation.</p><p class="who grad">— from Lillyana's Google review</p></div>
+      <div class="review-card pop"><p class="txt">Riley says Sheri nailed the exact blonde shade she wanted — and salon dog Blue kept her company through the appointment.</p><p class="who grad">— from Riley's Google review</p></div>
+      <div class="review-card pop"><p class="txt">Jennifer came in with a badly botched bang trim from a chain salon — Sheri turned it around completely.</p><p class="who grad">— from Jennifer's Google review</p></div>
+    </div>
+    <div class="col">
+      <h3>On Yelp</h3>
+      <p class="score"><b>4.1</b> ★★★★ · 13 reviews · 95 photos</p>
+      <div class="review-card pop"><p class="txt">One client came in with brittle, over-processed hair — Sheri trimmed it, toned it, and put in the work to bring it back to life.</p><p class="who grad">— from a Yelp review</p></div>
+      <div class="review-card pop"><p class="txt">Another has known Sheri since childhood and says she's the reason they went to cosmetology school — a role model with fabulous hands.</p><p class="who grad">— from a Yelp review</p></div>
+      <div class="review-card pop"><p class="txt">Attentive to exactly what you ask for — "she knows hair, and she does a great job with highlights."</p><p class="who grad">— from a Yelp review</p></div>
+      <a class="btn line" style="display:block;text-align:center;margin-top:.4rem" href="https://www.yelp.com/biz/highlights-cut-and-color-salon-moscow-3">Read all my Yelp reviews</a>
+    </div>
+  </div>
+</section>
 <section style="padding-top:0">
-  <h2>Reviews &amp; <span class="grad">socials</span></h2>
+  <h2>Follow <span class="grad">along</span></h2>
   <div class="social">
-    <a href="https://www.yelp.com/biz/highlights-cut-and-color-salon-moscow-3">Read my Yelp reviews<span>Photos and honest words from real clients</span></a>
     <a href="https://www.facebook.com/moscowidahohairsalon/">Find us on Facebook<span>News, openings, and before-and-afters</span></a>
     <a href="https://www.instagram.com/highlightssalonbysheri/">Follow on Instagram<span>@highlightssalonbysheri</span></a>
   </div>
-</section>
-<section style="padding-top:0" id="reviews">
-  <h2>Loved on <span class="grad">Google</span></h2>
-  <div class="review-card"><p class="txt">Lillyana has been seeing Sheri since moving to the area — welcoming, skilled with her shears, and recommended without hesitation.</p><p class="who grad">— from Lillyana's Google review</p></div>
-  <div class="review-card"><p class="txt">Riley says Sheri nailed the exact blonde shade she wanted — and salon dog Blue kept her company through the appointment.</p><p class="who grad">— from Riley's Google review</p></div>
-  <div class="review-card"><p class="txt">Lukas says Sheri fit him in when every other shop was closed and gave him the best haircut he's ever had.</p><p class="who grad">— from Lukas's Google review</p></div>
-  <div class="review-card"><p class="txt">Jennifer came in with a badly botched bang trim from a chain salon — Sheri turned it around completely.</p><p class="who grad">— from Jennifer's Google review</p></div>
 </section>
 <section style="padding-top:0">
   <h2>Hours</h2>
