@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upper Cut | Pullman, Washington</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--black:#141414;--white:#f6f6f4;--yellow:#f2c218;--grey:#8d8d88;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;color:var(--black);background:var(--white);line-height:1.65;}
+h1,h2{font-family:'Anton',sans-serif;letter-spacing:1px;text-transform:uppercase;font-weight:400;}
+.demo-tag{background:var(--yellow);color:var(--black);text-align:center;font-size:.72rem;padding:.45rem;letter-spacing:2px;text-transform:uppercase;font-weight:600;}
+header{position:sticky;top:0;z-index:20;background:var(--black);color:var(--white);display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.15rem;}
+header .brand{font-family:'Anton',sans-serif;font-size:1.05rem;letter-spacing:2px;text-transform:uppercase;}
+header .brand span{color:var(--yellow);}
+header a.call{background:var(--yellow);color:var(--black);text-decoration:none;font-weight:700;padding:.5rem 1.05rem;border-radius:3px;font-size:.85rem;}
+.hero{background:var(--black);color:var(--white);text-align:center;padding:4.5rem 1.25rem;}
+.hero .eyebrow{letter-spacing:4px;font-size:.75rem;text-transform:uppercase;color:var(--yellow);margin-bottom:1rem;}
+.hero h1{font-size:clamp(2.8rem,11vw,4rem);line-height:.98;}
+.hero h1 em{font-style:normal;color:var(--yellow);}
+.hero p{margin:1.25rem auto 2rem;color:var(--grey);font-size:1.05rem;max-width:34ch;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.85rem 1.6rem;border-radius:3px;font-weight:700;font-size:.95rem;}
+.btn.yellow{background:var(--yellow);color:var(--black);}
+.btn.line{border:1.5px solid var(--white);color:var(--white);}
+.stripe{background:var(--yellow);color:var(--black);text-align:center;padding:1rem;font-family:'Anton',sans-serif;letter-spacing:2px;text-transform:uppercase;font-size:.95rem;}
+section{padding:3.25rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.9rem;margin-bottom:1.3rem;}
+.svc li{list-style:none;display:flex;justify-content:space-between;padding:.85rem 0;border-bottom:2px solid #e4e4de;font-weight:600;}
+.svc li span{font-weight:400;color:#77776f;}
+.visit{background:var(--black);color:var(--white);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--yellow);}
+.visit p{color:var(--grey);margin-bottom:1.3rem;}
+.visit .addr{color:#fff;font-weight:600;font-size:1.05rem;}
+footer{text-align:center;padding:1.6rem 1rem;font-size:.78rem;color:#9c9c94;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Upper <span>Cut</span></div>
+  <a class="call" href="tel:15093323923">Call</a>
+</header>
+<div class="hero">
+  <div class="eyebrow">Pullman · 35 years strong</div>
+  <h1>A knockout cut, <em>every round.</em></h1>
+  <p>Barbering and styling on North Grand — the shop Pullman has trusted for three and a half decades.</p>
+  <div class="btnrow">
+    <a class="btn yellow" href="tel:15093323923">(509) 332-3923</a>
+    <a class="btn line" href="https://maps.google.com/?q=1212+N+Grand+Ave+Pullman+WA+99163">Directions</a>
+  </div>
+</div>
+<div class="stripe">Cuts · Color · Trims · Walk-ins by luck, appointments by phone</div>
+<section>
+  <h2>The lineup</h2>
+  <ul class="svc">
+    <li>Men's haircuts <span>Classic to modern</span></li>
+    <li>Women's cuts <span>Precision styling</span></li>
+    <li>Color services <span>Full color &amp; touch-ups</span></li>
+    <li>Bang trims <span>Quick fix, real skill</span></li>
+    <li>Kids' cuts <span>In and out happy</span></li>
+  </ul>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Corner of Grand</h2>
+    <p class="addr">1212 N Grand Ave, Pullman, WA 99163</p>
+    <p>Easy parking, easier conversation. Call to grab your slot.</p>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn yellow" href="tel:15093323923">Call the shop</a>
+      <a class="btn line" href="https://maps.google.com/?q=1212+N+Grand+Ave+Pullman+WA+99163">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>

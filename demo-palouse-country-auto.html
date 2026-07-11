@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palouse Country Auto Care | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--wheat:#c99a3d;--barn:#8f3b2c;--denim:#2b3f57;--cream:#f8f5ee;--ink:#2d2a24;--soft:#6f6a5e;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Source Sans 3',sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;}
+h1,h2{font-family:'Bitter',serif;}
+.demo-tag{background:var(--barn);color:var(--cream);text-align:center;font-size:.72rem;padding:.45rem;letter-spacing:2px;text-transform:uppercase;}
+header{position:sticky;top:0;z-index:20;background:var(--denim);color:var(--cream);display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.15rem;}
+header .brand{font-family:'Bitter',serif;font-weight:800;font-size:.95rem;}
+header a.call{background:var(--wheat);color:var(--ink);text-decoration:none;font-weight:600;padding:.5rem 1.05rem;border-radius:6px;font-size:.85rem;}
+.hero{background:linear-gradient(170deg,var(--denim),#1e2d40);color:var(--cream);padding:4.5rem 1.25rem;text-align:center;}
+.hero .badge{display:inline-block;border:1px solid var(--wheat);color:var(--wheat);font-weight:600;font-size:.75rem;letter-spacing:2px;text-transform:uppercase;padding:.35rem .9rem;border-radius:6px;margin-bottom:1.25rem;}
+.hero h1{font-size:clamp(2.2rem,8.5vw,3rem);font-weight:800;line-height:1.08;}
+.hero h1 em{font-style:normal;color:var(--wheat);}
+.hero p{margin:1.25rem auto 2rem;color:#b6c2d1;font-size:1.05rem;max-width:38ch;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.85rem 1.6rem;border-radius:6px;font-weight:600;font-size:.95rem;}
+.btn.wheat{background:var(--wheat);color:var(--ink);}
+.btn.line{border:1.5px solid var(--cream);color:var(--cream);}
+.napa{background:#fff;border-bottom:1px solid #e7e1d2;text-align:center;padding:1rem;font-weight:600;color:var(--denim);}
+section{padding:3.25rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.7rem;font-weight:800;color:var(--denim);margin-bottom:1.3rem;}
+.svc{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;}
+.svc div{background:#fff;border:1px solid #e7e1d2;border-radius:10px;padding:1rem;}
+.svc strong{display:block;color:var(--denim);}
+.svc span{font-size:.85rem;color:var(--soft);}
+.honest{background:#fff;border-left:4px solid var(--barn);border-radius:0 10px 10px 0;padding:1.3rem;box-shadow:0 2px 8px rgba(43,63,87,.06);}
+.honest p{font-size:.95rem;color:#4c4639;}
+.honest b{color:var(--barn);}
+.hours li{list-style:none;display:flex;justify-content:space-between;padding:.55rem 0;border-bottom:1px solid #e7e1d2;font-size:.95rem;}
+.hours li:last-child{border-bottom:none;}
+.hours li span{color:var(--soft);}
+.visit{background:var(--denim);color:var(--cream);max-width:none;}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit h2{color:var(--wheat);}
+.visit p{color:#b6c2d1;margin-bottom:1.3rem;}
+.visit .addr{color:#fff;font-weight:600;font-size:1.05rem;}
+footer{text-align:center;padding:1.6rem 1rem;font-size:.78rem;color:#a09a8b;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Palouse Country Auto Care</div>
+  <a class="call" href="tel:12088822667">Call</a>
+</header>
+<div class="hero">
+  <div class="badge">Moscow · 30 years on the Palouse</div>
+  <h1>Farm-country honest.<br><em>Dealer-level skill.</em></h1>
+  <p>General auto repair on White Avenue — three decades of fixing what's wrong and never selling what isn't.</p>
+  <div class="btnrow">
+    <a class="btn wheat" href="tel:12088822667">(208) 882-2667</a>
+    <a class="btn line" href="https://maps.google.com/?q=1420+E+White+Ave+Moscow+ID+83843">Directions</a>
+  </div>
+</div>
+<div class="napa">A NAPA AutoCare Center — work backed by a nationwide warranty</div>
+<section>
+  <h2>What we do</h2>
+  <div class="svc">
+    <div><strong>Engine repair</strong><span>Diagnostics to rebuilds</span></div>
+    <div><strong>Brakes</strong><span>Pads, rotors, lines</span></div>
+    <div><strong>Electrical</strong><span>Starters, alternators, wiring</span></div>
+    <div><strong>Heating &amp; A/C</strong><span>All seasons covered</span></div>
+    <div><strong>Suspension</strong><span>Shocks &amp; struts</span></div>
+    <div><strong>Scheduled maintenance</strong><span>Oil, fluids, tune-ups</span></div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <h2>Straight shooters</h2>
+  <div class="honest"><p><b>We don't do everything — on purpose.</b> No transmissions, no tires, no exhaust. We stick to what we're great at, and when your job isn't ours, we'll point you to the right shop instead of learning on your dime.</p></div>
+</section>
+<section style="padding-top:0">
+  <h2>Hours</h2>
+  <ul class="hours">
+    <li>Monday – Friday <span>7:30 am – 5:00 pm</span></li>
+    <li>Saturday – Sunday <span>Closed</span></li>
+  </ul>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>Find the shop</h2>
+    <p class="addr">1420 E White Ave, Moscow, ID 83843</p>
+    <p>Just off the Troy Highway on the east side of town.</p>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn wheat" href="tel:12088822667">Call the shop</a>
+      <a class="btn line" href="https://maps.google.com/?q=1420+E+White+Ave+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>

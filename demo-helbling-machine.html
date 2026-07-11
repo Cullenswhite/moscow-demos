@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Helbling Machine &amp; Auto Parts | Moscow, Idaho</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--gun:#2e3338;--gun-dk:#22262a;--steel:#9aa5ad;--safety:#f5b301;--paper:#f2f3f4;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;color:var(--paper);background:var(--gun-dk);line-height:1.65;}
+h1,h2{font-family:'Chakra Petch',sans-serif;text-transform:uppercase;letter-spacing:1px;}
+.demo-tag{background:var(--safety);color:var(--gun-dk);text-align:center;font-size:.72rem;padding:.45rem;letter-spacing:2px;text-transform:uppercase;font-weight:700;}
+header{position:sticky;top:0;z-index:20;background:var(--gun);display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.15rem;border-bottom:2px solid var(--safety);}
+header .brand{font-family:'Chakra Petch',sans-serif;font-weight:700;font-size:.92rem;text-transform:uppercase;}
+header a.call{background:var(--safety);color:var(--gun-dk);text-decoration:none;font-weight:700;padding:.5rem 1.05rem;border-radius:4px;font-size:.85rem;}
+.hero{padding:4.5rem 1.25rem;text-align:center;background:repeating-linear-gradient(45deg,var(--gun-dk),var(--gun-dk) 40px,#262b2f 40px,#262b2f 80px);}
+.hero .badge{display:inline-block;border:1px solid var(--safety);color:var(--safety);font-weight:600;font-size:.75rem;letter-spacing:2px;text-transform:uppercase;padding:.35rem .9rem;margin-bottom:1.25rem;}
+.hero h1{font-size:clamp(2.2rem,8.5vw,3rem);font-weight:700;line-height:1.05;}
+.hero h1 em{font-style:normal;color:var(--safety);}
+.hero p{margin:1.25rem auto 2rem;color:var(--steel);font-size:1.05rem;max-width:38ch;}
+.btnrow{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
+.btn{text-decoration:none;padding:.85rem 1.6rem;border-radius:4px;font-weight:700;font-size:.95rem;}
+.btn.safety{background:var(--safety);color:var(--gun-dk);}
+.btn.line{border:1.5px solid var(--steel);color:var(--paper);}
+section{padding:3.25rem 1.25rem;max-width:640px;margin:0 auto;}
+section h2{font-size:1.6rem;margin-bottom:1.3rem;}
+section h2 span{color:var(--safety);}
+.svc{display:grid;gap:.75rem;}
+.svc div{background:var(--gun);border:1px solid #3c4247;border-radius:8px;padding:1.05rem 1.2rem;display:flex;gap:.9rem;align-items:baseline;}
+.svc b{font-family:'Chakra Petch',sans-serif;color:var(--safety);white-space:nowrap;}
+.svc strong{display:block;}
+.svc span{font-size:.87rem;color:var(--steel);}
+.why{background:var(--gun);border-left:4px solid var(--safety);padding:1.3rem;border-radius:0 8px 8px 0;}
+.why p{color:#c7ced4;font-size:.96rem;}
+.hours li{list-style:none;display:flex;justify-content:space-between;padding:.55rem 0;border-bottom:1px solid #3c4247;font-size:.95rem;}
+.hours li:last-child{border-bottom:none;}
+.hours li span{color:var(--steel);}
+.visit{background:var(--gun);max-width:none;border-top:2px solid var(--safety);}
+.visit .inner{max-width:640px;margin:0 auto;}
+.visit p{color:var(--steel);margin-bottom:1.3rem;}
+.visit .addr{color:#fff;font-weight:600;font-size:1.05rem;}
+footer{text-align:center;padding:1.6rem 1rem;font-size:.78rem;color:#6d757c;}
+</style>
+</head>
+<body>
+<div class="demo-tag">Website concept preview</div>
+<header>
+  <div class="brand">Helbling Machine &amp; Auto Parts</div>
+  <a class="call" href="tel:12088828778">Call</a>
+</header>
+<div class="hero">
+  <div class="badge">Moscow · Machine shop + parts counter</div>
+  <h1>If it's metal,<br><em>we can help.</em></h1>
+  <p>A real machine shop and auto parts counter on 3rd Street — the place mechanics call when the part doesn't exist anymore.</p>
+  <div class="btnrow">
+    <a class="btn safety" href="tel:12088828778">(208) 882-8778</a>
+    <a class="btn line" href="https://maps.google.com/?q=510+W+3rd+St+Moscow+ID+83843">Directions</a>
+  </div>
+</div>
+<section>
+  <h2>Shop <span>services</span></h2>
+  <div class="svc">
+    <div><b>01</b><div><strong>Machine work</strong><span>Turning, milling, resurfacing, custom fabrication</span></div></div>
+    <div><b>02</b><div><strong>Engine machine services</strong><span>Heads, blocks, and hard-to-source jobs</span></div></div>
+    <div><b>03</b><div><strong>Auto parts counter</strong><span>Quality parts, real advice, special orders</span></div></div>
+    <div><b>04</b><div><strong>Farm &amp; industrial</strong><span>Equipment repair support for the Palouse</span></div></div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <h2>Why <span>Helbling</span></h2>
+  <div class="why"><p>Chain parts stores read a screen. A machine shop reads the metal. For 24 years, Moscow's mechanics, farmers, and gearheads have come to Helbling when the job needs more than a barcode.</p></div>
+</section>
+<section style="padding-top:0">
+  <h2>Hours</h2>
+  <ul class="hours">
+    <li>Monday – Friday <span>7:00 am – 5:00 pm</span></li>
+    <li>Saturday – Sunday <span>Closed</span></li>
+  </ul>
+</section>
+<section class="visit">
+  <div class="inner">
+    <h2>The <span>shop</span></h2>
+    <p class="addr">510 W 3rd St, Moscow, ID 83843</p>
+    <p>Three blocks off Main. Bring the part, the problem, or both.</p>
+    <div class="btnrow" style="justify-content:flex-start">
+      <a class="btn safety" href="tel:12088828778">Call the counter</a>
+      <a class="btn line" href="https://maps.google.com/?q=510+W+3rd+St+Moscow+ID+83843">Open in Maps</a>
+    </div>
+  </div>
+</section>
+<footer>Demo preview only. Details subject to owner review.</footer>
+</body>
+</html>
