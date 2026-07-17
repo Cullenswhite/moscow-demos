@@ -31,7 +31,7 @@ header a.book{border:1.5px solid #4d3a5e;color:var(--cream);text-decoration:none
 .phonebar:hover{background:var(--g2);border-color:var(--g2);color:#1b1320;}
 .morephotos{display:block;text-align:center;margin:.2rem auto 0;color:var(--muted);text-decoration:none;font-weight:700;font-size:.98rem;}
 .morephotos:hover{color:var(--g2);}
-.hero{padding:4.5rem 1.25rem 3.5rem;text-align:center;position:relative;overflow:hidden;}
+.hero{padding:4.5rem 1.25rem 3.5rem;text-align:center;position:relative;overflow:hidden;background:linear-gradient(rgba(27,19,32,.87),rgba(27,19,32,.94)),url('https://s3-media0.fl.yelpcdn.com/bphoto/0_jXsnQRtZ6zb3RPc1dXJw/o.jpg') center/cover;}
 .hero::before{content:"";position:absolute;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(255,94,138,.30),transparent 65%);top:-120px;right:-100px;}
 .hero::after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,209,102,.20),transparent 65%);bottom:-100px;left:-90px;}
 .hero>*{position:relative;z-index:1;}
@@ -67,6 +67,8 @@ section h2{font-size:1.9rem;margin-bottom:1.3rem;}
 .svc div{background:var(--card);border:1px solid #332440;border-radius:14px;padding:1.1rem;}
 .svc strong{display:block;font-size:1.02rem;margin-bottom:.15rem;}
 .svc span{font-size:.9rem;color:var(--muted);}
+.svc-color strong{font-size:1.22rem;background:linear-gradient(90deg,var(--g1),var(--g2),var(--g3));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.svc-color span{font-size:1.02rem;color:#ffb27a;}
 .oneliner{background:var(--card);border:1px solid #332440;border-radius:16px;padding:1.5rem;text-align:center;}
 .oneliner p{color:var(--muted);font-size:1rem;}
 .oneliner b{color:var(--cream);}
@@ -121,7 +123,6 @@ footer{text-align:center;padding:1.6rem 1rem;font-size:.8rem;color:#7d6b8a;}
     <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/ihgXjKPlw3bu0dZiZzsM0g/o.jpg')"></div>
     <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/0_jXsnQRtZ6zb3RPc1dXJw/o.jpg')"></div>
     <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/Xk-efygSIw7CereNhAasBw/o.jpg')"></div>
-    <div class="shot" style="background-image:url('https://s3-media0.fl.yelpcdn.com/bphoto/ocYKO6f-ca1-kT3jJjdKgQ/o.jpg')"></div>
     <div class="shot" style="background-image:url('https://d2zdpiztbgorvt.cloudfront.net/region1/us/1129811/inspiration/e23fb4d768314be0aba44fdb7e1f18-highlights-salon-inspiration-94f81f1a6ea94531870439dba25fd8-booksy.jpeg?size=640x0')"></div>
     <div class="shot" style="background-image:url('https://d2zdpiztbgorvt.cloudfront.net/region1/us/1129811/inspiration/78610bd3ac3e46959acab806455fd1-highlights-salon-inspiration-e514f8deb7c14ff4bbd9cd264aa838-booksy.jpeg?size=640x0')"></div>
     <div class="shot" style="background-image:url('https://d2zdpiztbgorvt.cloudfront.net/region1/us/1129811/inspiration/e5ea1d1e86c645b5b31c0d3c86b3e1-highlights-salon-inspiration-513469e5bf82471cb4ca64583d831b-booksy.jpeg?size=640x0')"></div>
@@ -133,8 +134,8 @@ footer{text-align:center;padding:1.6rem 1rem;font-size:.8rem;color:#7d6b8a;}
 </div>
 <div class="rating"><b>4.5</b> <span>★★★★½</span> <small>51 Google reviews</small></div>
 <section>
-  <h2>Specialty <span class="grad">Services</span></h2>
-  <div class="svc">
+  <h2><span class="grad">Specialty Services</span></h2>
+  <div class="svc svc-color">
     <div><strong>Balayage</strong><span>Hand-painted dimension</span></div>
     <div><strong>Babylights</strong><span>Soft, sun-kissed brightness</span></div>
     <div><strong>Color correction</strong><span>Certified — fixing what went wrong</span></div>
